@@ -1,19 +1,19 @@
 Class PartyObject ={
     constructor(size,minHP,maxDMG,minAC,minHitMod,duration,mobDextarity) = {
-          //number of party members
-        size:0,
-          //Lowest HP value for your party
-        minHP:0,
-          //Maximum Damage value of one player in one round for your party
-        maxDMG:0,
-          //lowest AC value for your party
-        minAC:0,
-          //Lowest modifier for landing a hit in your party
-        minHitMod:0,
-          //the number of rounds this combat should last
-        duration:0,
-          //the probability that enemies will dodge attacks (0.0-1.0)
-        mobDextarity:0
+          //number of party members (int)
+        this.size=size;
+          //Lowest HP value for your party(int)
+        this.minHP=minHP;
+          //Maximum Damage value of one player in one round for your party(int)
+        this.maxDMG=maxDMG;
+          //lowest AC value for your party(int)
+        this.minAC=minAC;
+          //Lowest modifier for landing a hit in your party(int)
+        this.minHitMod=minHitMod;
+          //the number of rounds this combat should last(int)
+        this.duration=duration;
+          //the probability that enemies will dodge attacks (0.0-1.0) (float)
+        this.mobDextarity=mobDextarity;
     }
 }
 
